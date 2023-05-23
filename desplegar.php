@@ -165,7 +165,7 @@
         
         echo "La fecha de consulta de este libro fue: "."<strong>".date("d/F/Y")."</strong>";
         echo " a las: "."<strong>".date("h:i a")."</strong>";
-        echo " en la zona horaria de "."<strong>".$_POST["horario"]."</strong>"."<br><br>";
+        echo " en la zona horaria de "."<strong>".$horario."</strong>"."<br><br>";
 
         echo "Este libro fue creado el "."<strong>".date("d/F/Y", $fechaCreacion)."</strong>";
     ?>
