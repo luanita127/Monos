@@ -25,11 +25,12 @@
                 </select>
         </label>
         <br><br>
-        <label>Zona horaria: 
-                <select required name="Zona">
-                    <option value="Mexico">México</option>
-                    <option value="Nueva York">Nueva York</option>
-                    <option value="España">España</option>
+        <label for="hora">Zona horaria:
+                <select id="hora" name="horario">
+                    <option disabled>Selection</option>
+                    <option value="America/Mexico_City">Ciudad de México</option>
+                    <option value="America/New_York">New York</option>
+                    <option value="Europe/Madrid">Madrid</option>
                 </select>
         </label>
         <br><br>
